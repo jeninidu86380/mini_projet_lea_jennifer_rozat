@@ -17,6 +17,6 @@ portfolio mangas avec mes dessins, petit résumé des histoires et url pour chaq
 
 3: taches à réaliser :
 
--premier bloc bannière principale avec une image sur fond noir et titre : mangas
--deuxième bloc avec une section contenu qui sera composé du main avec 4 sections comprenant une div image et un article avec un paragraphe.
+-body en noir, premier bloc bannière principale avec titre h1 le header contenant une image principale. 
+-deuxième bloc avec une section contenu qui sera composé du main avec 4 sections comprenant une div image avec un titre h2 et un article avec un paragraphe.
 -dernier bloc avec le footer qui liste les liens à consulter.
