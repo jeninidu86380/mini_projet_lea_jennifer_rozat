@@ -8,11 +8,11 @@ body {
 h1 {
     color: purple; /* Couleur du texte violette */
     text-align: center; /* Alignement centré du texte */
-    text-shadow: 3px 3px 3px grey; /* Ombre portée avec décalage de 3px horizontalement et verticalement et flou de 3px de couleur grise */
+    text-shadow: 3px 3px 3px beige; /* Ombre portée avec décalage de 3px horizontalement et verticalement et flou de 3px beige */
     text-transform: uppercase; /* Transformation du texte en majuscules */
     letter-spacing: 5px; /* Espacement entre les lettres de 5px */
     word-spacing: 5px; /* Espacement entre les mots de 5px */
-    font-size: 60px; /* Taille de police de 60px */
+    font-size: 80px; /* Taille de police de 60px */
     margin-bottom: 30px; /* Marge en bas de 30px */
     margin-top: 30px; /* Marge en haut de 30px */
 }
@@ -31,8 +31,8 @@ h2 {
     color: purple; /* Couleur du texte violette */
     letter-spacing: 6px; /* Espacement entre les lettres de 6px */
     text-align: center; /* Alignement centré du texte */
-    font-size: 50px; /* Taille de police de 50px */
-    text-shadow: 2px 2px 2px beige; /* Ombre portée avec décalage de 2px horizontalement et verticalement et flou de 2px de couleur beige */
+    font-size: 60px; /* Taille de police de 50px */
+    text-shadow: 2px 2px 2px beige; /* Ombre portée avec décalage de 2px horizontalement et verticalement et flou de 2px beige */
     text-transform: uppercase; /* Transformation du texte en majuscules */
     margin-bottom: 50px; /* Marge en bas de 50px */
     margin-top: -50px; /* Marge en haut de -50px (décalage vers le haut) */
@@ -41,7 +41,6 @@ h2 {
 /* Style du conteneur principal */
 .container {
     max-width: 100%; /* Largeur maximale de 100% */
-    margin: 0; /* Réinitialisation des marges */
 }
 
 /* Style de l'en-tête de héros */
@@ -57,7 +56,7 @@ h2 {
     display: flex; /* Affichage en mode flex */
     flex-direction: column; /* Direction de flexion en colonne */
     align-items: center; /* Alignement central des éléments enfants */
-    padding: 20px; /* Rembourrage intérieur de 20px */
+    padding: 20px; /* Remplissage intérieur de 20px */
     margin: 100px 0 200px; /* Marge de 100px en haut, 0 sur les côtés, 200px en bas */
     scroll-margin-top: 100px; /* Marge de défilement en haut de 100px */
 }
