@@ -12,9 +12,8 @@ h1 {
     text-transform: uppercase; /* Transformation du texte en majuscules */
     letter-spacing: 5px; /* Espacement entre les lettres de 5px */
     word-spacing: 5px; /* Espacement entre les mots de 5px */
-    font-size: 80px; /* Taille de police de 60px */
-    margin-bottom: 30px; /* Marge en bas de 30px */
-    margin-top: 30px; /* Marge en haut de 30px */
+    font-size: 80px; /* Taille de police de 80px */
+    margin: 120px; /* Marge de 150px en haut*/
 }
 
 /* Style d'un conteneur pour l'en-tête */
@@ -22,7 +21,7 @@ h1 {
     background-image: url(img/MANGAS.jpg); /* Image de fond */
     background-size: cover; /* Redimensionne l'image pour couvrir toute la zone */
     background-position: center; /* Positionnement de l'image centré */
-    height: 300px; /* Hauteur de l'élément à 300px */
+    height: 400px; /* Hauteur de l'élément à 300px */
     display: flex; /* Affichage en mode flex */
 }
 
@@ -34,13 +33,15 @@ h2 {
     font-size: 60px; /* Taille de police de 50px */
     text-shadow: 2px 2px 2px beige; /* Ombre portée avec décalage de 2px horizontalement et verticalement et flou de 2px beige */
     text-transform: uppercase; /* Transformation du texte en majuscules */
-    margin-bottom: 50px; /* Marge en bas de 50px */
-    margin-top: -50px; /* Marge en haut de -50px (décalage vers le haut) */
+    margin-bottom: 150px; /* Marge en bas de 150px */
+    margin-top: 20px; /* Marge en haut de 20px (décalage vers le haut) */
 }
 
 /* Style du conteneur principal */
 .container {
     max-width: 100%; /* Largeur maximale de 100% */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    padding: 0 20px; /* Ajoute une marge de 20px sur les côtés */
 }
 
 /* Style de l'en-tête de héros */
@@ -55,10 +56,8 @@ h2 {
     min-height: 100vh; /* Hauteur minimale de 100% de la hauteur de la fenêtre */
     display: flex; /* Affichage en mode flex */
     flex-direction: column; /* Direction de flexion en colonne */
-    align-items: center; /* Alignement central des éléments enfants */
-    padding: 20px; /* Remplissage intérieur de 20px */
-    margin: 100px 0 200px; /* Marge de 100px en haut, 0 sur les côtés, 200px en bas */
-    scroll-margin-top: 100px; /* Marge de défilement en haut de 100px */
+    padding: 10px; /* Remplissage intérieur de 10px */
+    margin: 100px 100px 200px; /* Marge de 100px en haut, 0 sur les côtés, 200px en bas */
 }
   
 /* Style des cartes */
@@ -66,18 +65,18 @@ h2 {
     background: rgb(225, 225, 225); /* Fond de couleur gris clair */
     display: flex; /* Affichage en mode flex */
     border-radius: 20px; /* Bordures arrondies de 20px */
-    margin-bottom: 40px; /* Marge en bas de 40px */
+    margin: 80px 40px 100px; /* Marge de 80px en haut, 40 sur les côtés, 100px en bas */
     transition: transform 0.2s ease-in-out; /* Transition fluide lors de la transformation */
     overflow: hidden; /* Masque le contenu débordant */
 }
   
 .card:hover {
-    transform: translate(-5px, -5px); /* Déplacement de la carte vers le haut et la gauche lors du survol */
+    transform: translate(-10px, -10px); /* Déplacement de la carte vers le haut et la gauche lors du survol */
 }
   
 /* Description de la carte */
 .card-description {
-    padding: 50px; /* Rembourrage intérieur de 50px */
+    padding: 20px; /* Remplissage intérieur de 20px */
 }
   
 /* Image de la carte */
@@ -87,6 +86,7 @@ h2 {
     height: auto; /* Hauteur automatique pour conserver les proportions */
     object-fit: cover; /* Redimensionne l'image pour couvrir toute la zone */
     display: flex; /* Affichage en mode flex */
+    overflow: hidden; /* Masque le contenu débordant */
 }   
   
 .card-img img {
@@ -103,7 +103,7 @@ h2 {
     text-align: center; /* Alignement centré du texte */
     text-transform: uppercase; /* Transformation du texte en majuscules */
     text-shadow: 2px 2px 2px grey; /* Ombre portée avec décalage de 2px horizontalement et verticalement et flou de 2px de couleur grise */
-    
+    margin: 50px 50px; /* Marge de 50px en haut, 50px en bas */
 }
 
 /* Style du paragraphe de la description de la carte */
@@ -121,13 +121,12 @@ footer {
 
 /* Style de la liste non ordonnée dans le pied de page */
 footer ul {
-    list-style-type: none; /* Supprime les puces de liste */
     padding: 0; /* Supprime les marges intérieures par défaut */
 }
 
 /* Style des éléments de liste dans le pied de page */
 footer ul li {
-    margin-bottom: 10px; /* Marge en bas de 10px */
+    margin: 50px; /* Marge de 50px en haut */
 }
 
 /* Style des liens dans le pied de page */
