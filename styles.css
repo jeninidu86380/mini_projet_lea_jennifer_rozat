@@ -3,17 +3,41 @@ body {
     margin: 0; /* Réinitialisation des marges */
     background-color: black; /* Couleur de fond noire */
 }
-
+nav {
+    text-align: center; /* Centrer les éléments de la barre de navigation */
+    margin-top: 50px; /* Ajouter une marge en haut de 50px */
+    text-shadow: 2px 2px 2px beige; /* Ombre portée avec décalage de 3px horizontalement et verticalement et flou de 3px beige */
+}
+  
+nav ul {
+    list-style-type: none; /* Supprimer les puces de liste */
+}
+  
+nav ul li {
+    display: inline-block; /* Afficher les éléments de la liste sur une seule ligne */
+    margin: 0 10px; /* Ajouter un espacement autour des éléments */
+}
+  
+nav a {
+    font-size: 2em; /* Taille de police */
+    color: purple; /* Couleur du texte */
+    text-decoration: none; /* Supprimer la soulignement des liens */
+}
+  
+nav a:hover {
+    color: red; /* Changement de couleur au survol */
+}
+  
 /* Style des titres de niveau 1 (h1) */
 h1 {
     color: purple; /* Couleur du texte violette */
     text-align: center; /* Alignement centré du texte */
-    text-shadow: 3px 3px 3px beige; /* Ombre portée avec décalage de 3px horizontalement et verticalement et flou de 3px beige */
+    text-shadow: 5px 5px 5px beige; /* Ombre portée avec décalage de 3px horizontalement et verticalement et flou de 3px beige */
     text-transform: uppercase; /* Transformation du texte en majuscules */
     letter-spacing: 5px; /* Espacement entre les lettres de 5px */
     word-spacing: 5px; /* Espacement entre les mots de 5px */
     font-size: 80px; /* Taille de police de 80px */
-    margin: 120px; /* Marge de 150px en haut*/
+    margin: 100px; /* Marge de 100px en haut*/
 }
 
 /* Style d'un conteneur pour l'en-tête */
@@ -25,7 +49,7 @@ h1 {
     display: flex; /* Affichage en mode flex */
 }
 
-/* Style des titres de niveau 2 (h2) */
+/* Styles pour le h2 avant le container */
 h2 {
     color: purple; /* Couleur du texte violette */
     letter-spacing: 6px; /* Espacement entre les lettres de 6px */
@@ -33,15 +57,15 @@ h2 {
     font-size: 60px; /* Taille de police de 50px */
     text-shadow: 2px 2px 2px beige; /* Ombre portée avec décalage de 2px horizontalement et verticalement et flou de 2px beige */
     text-transform: uppercase; /* Transformation du texte en majuscules */
-    margin-bottom: 150px; /* Marge en bas de 150px */
-    margin-top: 20px; /* Marge en haut de 20px (décalage vers le haut) */
+    margin-bottom: 100px; /* Marge en bas de 100px */
+    margin-top: 10px; /* Marge en haut de 10px (décalage vers le haut) */
 }
 
 /* Style du conteneur principal */
 .container {
     max-width: 100%; /* Largeur maximale de 100% */
     margin: 0 auto; /* Centre le conteneur horizontalement */
-    padding: 0 20px; /* Ajoute une marge de 20px sur les côtés */
+    padding: 20px; /* Ajoute une marge de 20px sur les côtés */
 }
 
 /* Style de l'en-tête de héros */
@@ -57,15 +81,15 @@ h2 {
     display: flex; /* Affichage en mode flex */
     flex-direction: column; /* Direction de flexion en colonne */
     padding: 10px; /* Remplissage intérieur de 10px */
-    margin: 100px 100px 200px; /* Marge de 100px en haut, 0 sur les côtés, 200px en bas */
+    margin: 100px 100px 200px; /* Marge de 100px en haut, 100 sur les côtés, 200px en bas */
 }
   
 /* Style des cartes */
 .card {
     background: rgb(225, 225, 225); /* Fond de couleur gris clair */
     display: flex; /* Affichage en mode flex */
-    border-radius: 20px; /* Bordures arrondies de 20px */
-    margin: 80px 40px 100px; /* Marge de 80px en haut, 40 sur les côtés, 100px en bas */
+    border-radius: 30px; /* Bordures arrondies de 30px */
+    margin: 100px 40px 50px; /* Marge de 100px en haut, 40 sur les côtés, 50px en bas */
     transition: transform 0.2s ease-in-out; /* Transition fluide lors de la transformation */
     overflow: hidden; /* Masque le contenu débordant */
 }
@@ -76,7 +100,7 @@ h2 {
   
 /* Description de la carte */
 .card-description {
-    padding: 20px; /* Remplissage intérieur de 20px */
+    padding: 30px; /* Remplissage intérieur de 20px */
 }
   
 /* Image de la carte */
@@ -119,6 +143,7 @@ footer {
     text-align: center; /* Alignement centré du texte */
 }
 
+  
 /* Style de la liste non ordonnée dans le pied de page */
 footer ul {
     padding: 0; /* Supprime les marges intérieures par défaut */
