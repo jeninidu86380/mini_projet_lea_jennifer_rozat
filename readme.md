@@ -19,4 +19,4 @@ portfolio mangas avec mes dessins, petit résumé des histoires et url pour chaq
 
 -body en noir, premier bloc bannière principale avec titre h1 le header contenant une image principale. 
 -deuxième bloc avec une section contenu qui sera composé du main des div avec 4 images avec leur titre h2 et 4 paragraphes descriptifs.
--dernier bloc avec le footer avec un h2 et 4 liens cliquable à consulter avec 1 ul et 4 li.
+-dernier bloc avec le footer avec un h2 et 4 liens cliquable et ouvre une autre page , avec 1 ul et 4 li.
