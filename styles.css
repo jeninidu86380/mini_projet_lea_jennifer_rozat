@@ -6,7 +6,8 @@ body {
 nav {
     text-align: center; /* Centrer les éléments de la barre de navigation */
     margin-top: 50px; /* Ajouter une marge en haut de 50px */
-    text-shadow: 2px 2px 2px beige; /* Ombre portée avec décalage de 3px horizontalement et verticalement et flou de 3px beige */
+    letter-spacing: 5px; /* Espacement entre les lettres de 5px */
+    text-shadow: 2px 2px 2px beige; /* Ombre portée avec décalage horizontalement et verticalement et flou de 2px beige */
 }
   
 nav ul {
@@ -28,7 +29,7 @@ nav a:hover {
     color: red; /* Changement de couleur au survol */
 }
   
-/* Style des titres de niveau 1 (h1) */
+/* Style des titres (h1) */
 h1 {
     color: purple; /* Couleur du texte violette */
     text-align: center; /* Alignement centré du texte */
