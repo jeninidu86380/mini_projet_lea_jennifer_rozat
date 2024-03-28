@@ -19,7 +19,7 @@ nav ul li {
 }
   
 nav a {
-    font-size: 1.5vw; /* Taille de police */
+    font-size: 1.5vw; /* Taille de police adaptative */
     color: purple; /* Couleur du texte */
     text-decoration: none; /* Supprimer la soulignement des liens */
 }
@@ -134,9 +134,10 @@ h2 {
 .card-description p {
     text-align: start; /* Alignement du texte à gauche */
     font-size: 1.5vw; /* Taille de police */
-    line-height: 1.5; /* Hauteur de ligne (double interligne) */
+    line-height: 2; /* Hauteur de ligne (double interligne) */
     font-family: Arial, sans-serif; /* Police  */
-
+    box-sizing: border-box; /* inclure les marges et les bordures dans la largeur*/
+    width: 100%;
 }
 
 /* Style du pied de page */
