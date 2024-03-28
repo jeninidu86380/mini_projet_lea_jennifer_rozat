@@ -19,7 +19,7 @@ nav ul li {
 }
   
 nav a {
-    font-size: 2em; /* Taille de police */
+    font-size: 1.5vw; /* Taille de police */
     color: purple; /* Couleur du texte */
     text-decoration: none; /* Supprimer la soulignement des liens */
 }
@@ -32,11 +32,11 @@ nav a:hover {
 h1 {
     color: purple; /* Couleur du texte violette */
     text-align: center; /* Alignement centré du texte */
-    text-shadow: 5px 5px 5px beige; /* Ombre portée avec décalage de 3px horizontalement et verticalement et flou de 3px beige */
+    text-shadow: 3px 3px 3px beige; /* Ombre portée avec décalage de 3px horizontalement et verticalement et flou de 3px beige */
     text-transform: uppercase; /* Transformation du texte en majuscules */
     letter-spacing: 5px; /* Espacement entre les lettres de 5px */
     word-spacing: 5px; /* Espacement entre les mots de 5px */
-    font-size: 80px; /* Taille de police de 80px */
+    font-size: 1.5vw; /* Taille de police */
     margin: 100px; /* Marge de 100px en haut*/
 }
 
@@ -54,7 +54,7 @@ h2 {
     color: purple; /* Couleur du texte violette */
     letter-spacing: 6px; /* Espacement entre les lettres de 6px */
     text-align: center; /* Alignement centré du texte */
-    font-size: 50px; /* Taille de police de 50px */
+    font-size: 1.5vw; /* Taille de police */
     text-shadow: 2px 2px 2px beige; /* Ombre portée avec décalage de 2px horizontalement et verticalement et flou de 2px beige */
     text-transform: uppercase; /* Transformation du texte en majuscules */
     margin-bottom: 100px; /* Marge en bas de 100px */
@@ -122,7 +122,7 @@ h2 {
 /* Style du titre de la description de la carte */
 .card-description h3 {
     letter-spacing: 3px; /* Espacement entre les lettres de 3px */
-    font-size: 40px; /* Taille de police de 40px */
+    font-size: 1.5vw; /* Taille de police adaptative */
     color: purple; /* Couleur du texte violette */
     text-align: center; /* Alignement centré du texte */
     text-transform: uppercase; /* Transformation du texte en majuscules */
@@ -133,9 +133,10 @@ h2 {
 /* Style du paragraphe de la description de la carte */
 .card-description p {
     text-align: start; /* Alignement du texte à gauche */
-    font-size: 30px; /* Taille de police de 30px */
+    font-size: 1.5vw; /* Taille de police */
     line-height: 1.5; /* Hauteur de ligne (double interligne) */
     font-family: Arial, sans-serif; /* Police  */
+
 }
 
 /* Style du pied de page */
@@ -156,7 +157,7 @@ footer ul li {
 
 /* Style des liens dans le pied de page */
 footer a {
-    font-size: 2em; /* Taille de police de 2em */
+    font-size: 1.5vw; /* Taille de police de 2em */
     color: purple; 
 }
 
