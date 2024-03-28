@@ -1,0 +1,83 @@
+body {
+    margin: 0; /* Réinitialisation des marges */
+    background-color: black; /* Couleur de fond noire */
+}
+nav {
+    text-align: center; /* Centrer les éléments de la barre de navigation */
+    margin-top: 50px; /* Ajouter une marge en haut de 50px */
+    letter-spacing: 5px; /* Espacement entre les lettres de 5px */
+    text-shadow: 2px 2px 2px beige; /* Ombre portée avec décalage horizontalement et verticalement et flou de 2px beige */
+}
+  
+nav ul {
+    list-style-type: none; /* Supprimer les puces de liste */
+}
+  
+nav ul li {
+    display: inline-block; /* Afficher les éléments de la liste sur une seule ligne */
+    margin: 0 10px; /* Ajouter un espacement autour des éléments */
+}
+  
+nav a {
+    font-size: 1.5vw; /* Taille de police adaptative */
+    color: purple; /* Couleur du texte */
+    text-decoration: none; /* Supprimer la soulignement des liens */
+}
+  
+nav a:hover {
+    color: red; /* Changement de couleur au survol */
+}
+h1 {
+    color: purple; /* Couleur du texte violette */
+    text-align: center; /* Alignement centré du texte */
+    text-shadow: 3px 3px 3px beige; /* Ombre portée avec décalage de 3px horizontalement et verticalement et flou de 3px beige */
+    text-transform: uppercase; /* Transformation du texte en majuscules */
+    letter-spacing: 5px; /* Espacement entre les lettres de 5px */
+    word-spacing: 5px; /* Espacement entre les mots de 5px */
+    font-size: 1.5vw; /* Taille de police */
+    margin: 100px; /* Marge de 100px en haut*/
+}
+/* Les styles spécifiques à la galerie */
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+  
+.gallery-item {
+    width: calc(33% - 30px); /* Changer la largeur pour réduire la taille des images */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Permet de positionner le nom */
+}
+  
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: fill;
+    transition: transform 0.2s ease-in-out;
+}
+  
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+  
+/* Styles pour le nom de l'image */
+.image-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px purple;
+}
