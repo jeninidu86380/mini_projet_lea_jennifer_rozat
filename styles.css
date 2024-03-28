@@ -45,7 +45,7 @@ h1 {
     background-image: url(img/MANGAS.jpg); /* Image de fond */
     background-size: cover; /* Redimensionne l'image pour couvrir toute la zone */
     background-position: center; /* Positionnement de l'image centré */
-    height: 400px; /* Hauteur de l'élément à 300px */
+    height: 400px; /* Hauteur de l'élément à 400px */
     display: flex; /* Affichage en mode flex */
 }
 
@@ -54,7 +54,7 @@ h2 {
     color: purple; /* Couleur du texte violette */
     letter-spacing: 6px; /* Espacement entre les lettres de 6px */
     text-align: center; /* Alignement centré du texte */
-    font-size: 60px; /* Taille de police de 50px */
+    font-size: 50px; /* Taille de police de 50px */
     text-shadow: 2px 2px 2px beige; /* Ombre portée avec décalage de 2px horizontalement et verticalement et flou de 2px beige */
     text-transform: uppercase; /* Transformation du texte en majuscules */
     margin-bottom: 100px; /* Marge en bas de 100px */
@@ -65,7 +65,7 @@ h2 {
 .container {
     max-width: 100%; /* Largeur maximale de 100% */
     margin: 0 auto; /* Centre le conteneur horizontalement */
-    padding: 20px; /* Ajoute une marge de 20px sur les côtés */
+    padding: 5px; /* Ajoute une marge de 5px sur les côtés */
 }
 
 /* Style de l'en-tête de héros */
@@ -89,7 +89,7 @@ h2 {
     background: rgb(225, 225, 225); /* Fond de couleur gris clair */
     display: flex; /* Affichage en mode flex */
     border-radius: 30px; /* Bordures arrondies de 30px */
-    margin: 100px 40px 50px; /* Marge de 100px en haut, 40 sur les côtés, 50px en bas */
+    margin: 80px 40px 50px; /* Marge de 80px en haut, 40 sur les côtés, 50px en bas */
     transition: transform 0.2s ease-in-out; /* Transition fluide lors de la transformation */
     overflow: hidden; /* Masque le contenu débordant */
 }
@@ -108,7 +108,7 @@ h2 {
     flex-shrink: 0; /* Empêche la réduction de la taille de l'image */
     width: 50%; /* Largeur de 50% */
     height: auto; /* Hauteur automatique pour conserver les proportions */
-    object-fit: cover; /* Redimensionne l'image pour couvrir toute la zone */
+    object-fit: fill; /* Redimensionne l'image pour couvrir toute la zone */
     display: flex; /* Affichage en mode flex */
     overflow: hidden; /* Masque le contenu débordant */
 }   
@@ -116,7 +116,7 @@ h2 {
 .card-img img {
     width: 100%; /* Largeur de l'image à 100% */
     height: auto; /* Hauteur automatique pour conserver les proportions */
-    object-fit: cover; /* Redimensionne l'image pour couvrir toute la zone */
+    object-fit: fill; /* Redimensionne l'image pour couvrir toute la zone */
 }  
 
 /* Style du titre de la description de la carte */
